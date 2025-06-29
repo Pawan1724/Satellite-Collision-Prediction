@@ -27,7 +27,7 @@ cd satellite-collision-streamlit
 pip install -r requirements.txt
 
 # Run the Streamlit app
-streamlit run Detection.py
+streamlit run main.py
 ```
 
 ---
@@ -50,7 +50,7 @@ streamlit run Detection.py
 ## 📂 File Structure
 
 ```
-├── Detection.py            # Streamlit app (main file)
+├── Main.py                 # Streamlit app (main file)
 ├── active_tles.txt         # Downloaded TLE data (auto-generated)
 ├── requirements.txt        # Python package requirements
 └── README.md               # Project documentation
